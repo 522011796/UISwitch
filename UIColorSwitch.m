@@ -1,8 +1,8 @@
 //
-//  NKColorSwitch.m
+//  UIColorSwitch.m
 //  IOT-PRO-NEW
 //
-//  Created by 李凯 on 2023/8/23.
+//  Created by ricky on 2023/8/23.
 //
 
 #import "NKColorSwitch.h"
@@ -17,7 +17,7 @@ static const CGFloat kSwitchBorderWidth = 1.75f;
 static const CGFloat kThumbImageHeight = 25;
 static const CGFloat kThumbImageWidth = 25;
 
-@interface NKColorSwitch();
+@interface UIColorSwitch();
 @property (nonatomic, strong) UIView *onBackgroundView;
 @property (nonatomic, strong) UIView *offBackgroundView;
 @property (nonatomic, strong) UIView *thumbView;
